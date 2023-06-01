@@ -1,0 +1,138 @@
+{
+  "mod_elements": [
+    {
+      "name": "Campsoldat",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "campsoldat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/modzelda/world/structure/CampsoldatStructure.java"
+        ]
+      }
+    },
+    {
+      "name": "Bienvenuelink",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bienvenuelink",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod_zelda/advancements/bienvenuelink.json"
+        ]
+      }
+    },
+    {
+      "name": "Bombe1",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bombe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mod_zelda/models/item/bombe_1.json",
+          "src/main/java/net/mcreator/modzelda/item/Bombe1Item.java"
+        ]
+      }
+    },
+    {
+      "name": "BombeLorsqueLeProjectileToucheUnBloc",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bombe_lorsque_le_projectile_touche_un_bloc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/modzelda/procedures/BombeLorsqueLeProjectileToucheUnBlocProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bombe",
+      "type": "rangeditem",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bombe"
+    },
+    {
+      "name": "Loldisque",
+      "type": "musicdisc",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loldisque",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/modzelda/item/LoldisqueItem.java",
+          "src/main/resources/assets/mod_zelda/models/item/loldisque.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "let_it_grow",
+      "files": [
+        "lady_gro"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.mod_zelda.bombe_1": "Bombe 1",
+      "subtitles.let_it_grow": "",
+      "advancements.bienvenuelink.descr": "vous êtes apparu(e) sur vôtre monde ",
+      "item.mod_zelda.loldisque.desc": "let it grow",
+      "item.mod_zelda.loldisque": "let it grow",
+      "advancements.bienvenuelink.title": "Bienvenue link"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "mod_zelda",
+    "modName": "mod zelda",
+    "version": "1.0.0",
+    "author": "passo, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "KOryxTV,Zeiirox, secretwars",
+    "modElementsPackage": "net.mcreator.modzelda",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

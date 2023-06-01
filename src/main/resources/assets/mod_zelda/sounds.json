@@ -1,0 +1,11 @@
+{
+  "let_it_grow": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "mod_zelda:lady_gro",
+        "stream": true
+      }
+    ]
+  }
+}

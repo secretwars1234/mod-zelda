@@ -1,0 +1,19 @@
+{
+  "_fv": 39,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "let it grow",
+    "texture": "let_it_grow",
+    "description": "let it grow",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:let_it_grow"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}
